@@ -1,0 +1,120 @@
+ * {
+     /*for removing default*/
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     background: linear-gradient(-45deg, #00398f, #001c4a, #15009c, #001079);
+ }
+
+ header {
+     position: absolute;
+     top: 0;
+     left: 0;
+     left: 0;
+     width: 100%;
+     padding: 30px 100px;
+     justify-content: space-between;
+     display: flex;
+     align-items: center;
+     z-index: 10000;
+ }
+
+ header .logo {
+     color: #fff;
+     font-weight: 700;
+     text-decoration: none;
+     font-size: 2em;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+ }
+
+ header ul {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ header ul li {
+     list-style: none;
+     margin-left: 20px;
+ }
+
+ header ul li a {
+     text-decoration: none;
+     padding: 6px 15px;
+     color: #fff;
+     border-radius: 20px;
+ }
+
+ header ul li a:hover,
+ header ul li a.active {
+     background: #fff;
+     color: #2b1055;
+ }
+
+ section {
+     position: relative;
+     width: 100%;
+     height: 100vh;
+     padding: 100px;
+     display: flex;
+     justify-self: center;
+     align-items: center;
+ }
+
+ section img {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
+
+ section img#moon {
+     mix-blend-mode: screen;
+ }
+
+ #text {
+     position: absolute;
+     color: #fff;
+     white-space: nowrap;
+     font-size: 7.5vw;
+     font-size: 1.5em;
+     z-index: 9;
+ }
+
+
+ .exploreClubs {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     gap: 20px;
+ }
+
+ .gdscUvce,
+ .ieeeUvce,
+ .marvelUvce,
+ .pravegUvce,
+ .ecellUvce,
+ .tpoUvce,
+ .tatvaUvce,
+ .g2c2Uvce,
+ .vachanaUvce {
+     background: linear-gradient(-45deg, #b3d3f3, #8ab5e8, #afadee, #7881b2);
+     text-align: center;
+     border-radius: 5%;
+     width: 250px;
+     height: 370px;
+ }
+
+ .submitBtn {
+     background: #6e5ed4;
+     border: solid #001079;
+     box-shadow: none;
+     width: 90px;
+     height: 27px;
+ }
