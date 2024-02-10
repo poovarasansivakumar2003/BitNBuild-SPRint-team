@@ -103,6 +103,7 @@ body {
         margin-top: 20px;
         padding: 0 50px;
         text-align: center;
+       background: linear-gradient(-45deg, #00398f, #001c4a, #15009c, #001079);
     }
 
     .exploreClubs{
@@ -193,6 +194,15 @@ header ul li a:hover {
      padding: 20px;
      gap: 20px;
  }
+
+.gdscUvce,
+ .ieeeUvce,
+ .pravegUvce,
+ .ecellUvce,
+ .adhamyaUvce:hover {
+    box-shadow: 2px 2px 10px black;
+}
+
 
  .gdscUvce,
  .ieeeUvce,
