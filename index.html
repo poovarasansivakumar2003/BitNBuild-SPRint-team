@@ -129,23 +129,33 @@
         nav.classList.toggle('open');
     }
 
-   setTimeout(()=>{
-       var popup = document.getElementById('popup');
-       popup.style.display='block';
-   },10000)
+  setTimeout(()=>{
+    var popup = document.getElementById('popup');
+    popup.style.display = 'block';
+  },10000)
 
-    setTimeout(function()=>{
-       popup.style.display='none';
-   },18000)
+    // Hide the popup after 3 seconds
+    setTimeout(function() {
+      popup.style.display = 'none';
+    }, 18000);
+  
+    setTimeout(()=>{
+            popup.style.display='block';
+            popup.innerHTML="CODEFURRY starting in an hour";
+    },26000)
+    setTimeout(()=>{
+        popup.style.display='none';
+        
+},32000)
 
     setTimeout(()=>{
-       popup.style.display='block';
-        pop.innerHTML="Codefury starting in an hour";
-   },26000)
+        popup.style.display='block';
+        popup.innerHTML="Did you register for Hackathon?";
+},40000)
+setTimeout(()=>{
+    popup.style.display='none';
 
-    setTimeout(()=>{
-       popup.style.display='nonek';
-   },32000)
+},48000)
 </script>
 
 </html>
