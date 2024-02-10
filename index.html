@@ -12,6 +12,9 @@
 </head>
 
 <body>
+    <div id="popup" class="popup">
+        <p>Welcome to our page</p>
+    </div>
     <header>
         <nav class="nav">
             <a href="#" class="logo">UVCE</a>
@@ -126,15 +129,23 @@
         nav.classList.toggle('open');
     }
 
-    setTimeout(() => {
-        alert("Upcoming event Impetus 24.0")
-    }, 3000);
-    setTimeout(() => {
-        alert("Hurry Up, seats filling for CodeFurry")
-    }, 7000);
-    setTimeout(() => {
-        alert("Did you paticipate in Bit and Build")
-    }, 10000);
+   setTimeout(()=>{
+       var popup = document.getElementById('popup');
+       popup.style.display='block';
+   },10000)
+
+    setTimeout(function()=>{
+       popup.style.display='none';
+   },18000)
+
+    setTimeout(()=>{
+       popup.style.display='block';
+        pop.innerHTML="Codefury starting in an hour";
+   },26000)
+
+    setTimeout(()=>{
+       popup.style.display='nonek';
+   },32000)
 </script>
 
 </html>
