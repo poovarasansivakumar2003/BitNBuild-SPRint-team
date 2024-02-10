@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(47, 33, 79);
+    background: linear-gradient(to right, #9796f0, rgb(47, 33, 79));
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    overflow: visible;
+}
+
+.p {
+    color: white;
+}
+
+b {
+    width: 180px;
+    height: 60px;
+    background: none;
+    border-top: 2px dashed #180202;
+    ;
+    border-bottom: 2px solid #180202;
+    border-left: 2px solid #180202;
+    ;
+    border-right: 2px solid #180202;
+    ;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+span {
+    position: relative;
+    color: #4b1111;
+    fill: transparent;
+    font-size: 20px;
+    letter-spacing: .2em;
+    font-weight: 400;
+}
+
+button:focus {
+    outline: none;
+    border: 2px solid transparent;
+    width: 60px;
+    border-left: 2px solid #56119a;
+    border-bottom: 2px solid #56119a;
+    animation: spin 2s 500ms forwards;
+}
+
+button:focus span {
+    color: transparent;
+}
+
+@keyframes spin {
+    80% {
+        border: 2px solid transparent;
+        border-left: 2px solid #56119a;
+    }
+
+    100% {
+        transition: rotate(1080deg);
+        border: 2px solid #56119a;
+    }
+
+    check {
+        to {
+            fill: #56119a;
+        }
+
+    }
+}
+
+.card {
+    width: 20%;
+    background-color: rgb(0, 36, 128);
+    border-radius: 5px;
+    margin: 40px;
+    display: inline-block;
+}
+
+.card:hover {
+    box-shadow: 2px 2px 10px black;
+}
+
+.image img {
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.title {
+    text-align: center;
+    padding: 5px;
+}
+
+.des {
+    text-align: center;
+    padding: 4px;
+}
+
+button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(80, 141, 194);
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: black;
+    color: aliceblue;
+    transition: .5s;
+    cursor: pointer;
+}
