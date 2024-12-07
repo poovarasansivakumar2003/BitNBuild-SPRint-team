@@ -11,7 +11,7 @@ A dynamic and innovative solution developed collaboratively in a high-paced hack
 | Name            | Role                 | GitHub Profile                                                |
 |------------------|----------------------|----------------------------------------------------------------|
 | **Shreya Nayak B** | Developer/Contributor | [GitHub](https://github.com/shr968 "Directed to Shreya Nayak's GitHub Profile") |
-| **S Sindhu**       | Developer/Contributor | [GitHub]()                                                   |
+| **S Sindhu**       | Developer/Contributor | [GitHub](https://github.com/SSquarecoder "Directed to Sindhu's GitHub Profile")                                                   |
 | **Poovarasan S**    | Developer/Contributor | [GitHub](https://github.com/poovarasansivakumar2003 "Directed to Poovarasan's GitHub Profile") |
 | **RaviTeja M**      | Developer/Contributor | [GitHub](https://github.com/Raviteja112004 "Directed to RaviTeja's GitHub Profile") |
 
