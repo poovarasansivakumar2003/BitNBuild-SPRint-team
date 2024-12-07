@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard</title>
+    <style>
+        body {
+            background-color: #979AFF;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .trophy {
+            height: 100px;
+            width: 100px;
+        }
+
+        .poster {
+            max-width: 100%;
+            height: auto;
+            width: 700px;
+            margin-top: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h3 {
+            font-size: 2rem;
+            margin: 10px 0;
+        }
+
+        button {
+            background-color: #508DC2;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        button:hover {
+            background-color: #333;
+            transform: scale(1.05);
+        }
+
+        button a {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            text-align: center;
+        }
+
+        button a:focus {
+            outline: none;
+        }
+
+        button a:hover {
+            color: #fff;
+        }
+
+
+        /* Mobile responsiveness */
+        @media (max-width: 768px) {
+            .poster {
+                width: 90%;
+            }
+
+            h3 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="../img/leaderboardAssets/trophy.jpg" class="trophy" alt="Trophy"><br>
+        <h3>Leaderboard</h3>
+        <img src="../img/leaderboardAssets/artboard.jpg" class="poster" alt="Leaderboard Art">
+    </div>
+    <a href="/index.html"><button>Return to Homepage</button></a>
+</body>
+
+</html>

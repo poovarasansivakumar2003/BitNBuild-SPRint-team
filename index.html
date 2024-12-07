@@ -1,163 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <title>Explore Clubs</title>
+    <title>UVCE Clubs & Events</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <div id="popup" class="popup">
-        <p>Welcome to our page</p>
-    </div>
-    <header>
-        <nav class="nav">
+    <header class="container">
+        <nav class="navbar">
             <a href="#" class="logo">UVCE</a>
-            <ul>
-                <li><a href="#1">Home</a></li>
-                <li><a href="#2">Explore Clubs</a></li>
-                <li><a href="#3">Upcoming Event</a></li>
-                <li><a href="#4">Register for Upcoming Event</a></li>
-                <li><a href="#5">Leaderboard</a></li>
-                <li><a href="#6">Contact Us</a></li>
-                <li><a href="login.html">Login</a></li>
-            </ul>
-            <div class="hamburger">
-                <input type="checkbox" role="button" aria-label="Display the menu" class="menu">
+            <div class="hamburger" onclick="toggleMenu()">☰</div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#clubs">Clubs</a>
+                <a href="#events">Upcoming Events</a>
+                <a href="#register">Register</a>
+                <a href="#leaderboard">Leaderboard</a>
+                <a href="#contact">Contact</a>
+                <a href="./assets/html/login.html" class="btn" style="color: white;">Login</a>
             </div>
         </nav>
     </header>
-    <div class="maindiv"></div>
-    <div id="1"></div>
-    <h1 style="text-align: center; color: white; margin-top: 100px;">Explore Clubs</h1>
-    <br></br>
-    <div id="2"></div>
-    <div class="exploreClubs">
-        <div class="gdscUvce hov">
-            <img src="https://media.licdn.com/dms/image/C4D03AQFhn7ya3bHlqA/profile-displayphoto-shrink_800_800/0/1663606411050?e=2147483647&v=beta&t=0lfSRPfFn2CtlMcP7WU7W-yDbEWof6TKkVyVpq_cwaQ"
-                alt="gdscUvce" style="border-radius: 50%; width: 100px;">
-            <br></br>
-            <b>GDSC UVCE</b>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae temporibus repellat dolorum deleniti
-                accusamus. Sit beatae inventore assumenda aperiam? Velit mollitia blanditiis rerum. Suscipit,
-                placeat
-                iste a quas delectus molestiae?</p>
-            <a href="index2.html" class="btn btn-primary">Explore</a>
-            <br></br>
-        </div>
-        <div class="ieeeUvce hov">
-            <img src="https://media.licdn.com/dms/image/C5103AQEpnHP5TAAOHw/profile-displayphoto-shrink_200_200/0/1586799712413?e=2147483647&v=beta&t=BSzy2z_jFERmeX50fk3BHv_Z3ULLUk-8KS48oL6WiTY"
-                alt="ieeeUvce" style="border-radius: 50%; width: 100px;">
-            <br></br>
-            <b>IEEE UVCE</b>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae temporibus repellat dolorum deleniti
-                accusamus. Sit beatae inventore assumenda aperiam? Velit mollitia blanditiis rerum. Suscipit,
-                placeat
-                iste a quas delectus molestiae?</p>
-            <a href="index3.html" class="btn btn-primary">Explore</a>
-            <br></br>
-        </div>
-        <div class="pravegUvce hov">
-            <img src="Praveg logo.png" alt="pravegUvce" style="border-radius: 50%; width: 100px;">
-            <br></br>
-            <b>Praveg UVCE</b>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae temporibus repellat dolorum deleniti
-                accusamus. Sit beatae inventore assumenda aperiam? Velit mollitia blanditiis rerum. Suscipit,
-                placeat
-                iste a quas delectus molestiae?</p>
-            <a href="index4.html" class="btn btn-primary">Explore</a>
-            <br></br>
-        </div>
-        <div class="ecellUvce hov">
-            <img src="https://scontent.fcok7-1.fna.fbcdn.net/v/t39.30808-1/298607020_566246785195377_3890728891970685562_n.jpg?stp=dst-jpg_p200x200&_nc_cat=108&ccb=1-7&_nc_sid=596444&_nc_ohc=ainU-sC8pgsAX9QJ2mS&_nc_ht=scontent.fcok7-1.fna&oh=00_AfBcfKg_dWx-cHwnfv_BcWiaOWkOL_6Bq6zLeAjI-_ZLqA&oe=65CB374D"
-                alt="ecellUvce" style="border-radius: 50%; width: 100px;">
-            <br></br>
-            <b>ECELL UVCE</b>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae temporibus repellat dolorum deleniti
-                accusamus. Sit beatae inventore assumenda aperiam? Velit mollitia blanditiis rerum. Suscipit,
-                placeat
-                iste a quas delectus molestiae?</p>
-            <a href="index5.html" class="btn btn-primary">Explore</a>
-            <br></br>
-        </div>
-        <div class="adhamyaUvce hov">
-            <img src="Ahamya logo.png"
-                alt="adhamyaUvce" style="border-radius: 50%; width: 100px;">
-            <br></br>
-            <b>Adhamya Uvce</b>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae temporibus repellat dolorum deleniti
-                accusamus. Sit beatae inventore assumenda aperiam? Velit mollitia blanditiis rerum. Suscipit,
-                placeat
-                iste a quas delectus molestiae?</p>
-            <a href="index6.html" class="btn btn-primary">Explore</a>
-            <br></br>
-        </div>
-    </div>
-    <div id="3"></div>
-    <h1 style="text-align: center; color: white; margin-top: 100px;">Upcoming event</h1><br><br>
-    <div id="4"></div>
-    <center><a href="index-1.html" class="btn btn-primary">Click here to explore Events</a></center>
-    <h1 style="text-align: center; color: white; margin-top: 100px;">Register for Upcoming event</h1><br><br>
-    <div id="5"></div>
-    <center><a href="index-2.html" class="btn btn-primary">Click here to know more and register</a></center>
-    <h1 style="text-align: center; color: white; margin-top: 100px;">Leaderboard</h1><br><br>
-    <center><a href="leaderboard.html" class="btn btn-primary">Click here to explore Leaderboard</a></center>
-    <br><br>
-    <footer id="6">
-        <h1 style="text-align: center; color: white; margin-top: 100px;">Contact Us</h1>
-        <div class="footerContainer">
-            <div class="socialicons">
-                <a href="#" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-twitter"></a>
-                <a href="#" class="fa fa-instagram"></a>
-                <a href="#" class="fa fa-youtube"></a>
+
+    <main>
+        <section class="hero container">
+            <h1>Discover UVCE Clubs & Community</h1>
+            <p>Explore diverse clubs, participate in exciting events, and connect with like-minded students at UVCE. Your journey of growth and innovation starts here.</p>
+        </section>
+
+        <section id="clubs" class="container">
+            <div class="clubs-grid">
+                <div class="club-card">
+                    <img src="./assets/img/clubsLogo/gdsc.png" alt="GDSC UVCE">
+                    <h3>GDSC UVCE</h3>
+                    <p>Innovate, collaborate, and learn with Google Developer Student Clubs at UVCE.</p>
+                    <a href="./assets/html/gdsc.html" class="btn">Explore Club</a>
+                </div>
+                <div class="club-card">
+                    <img src="./assets/img/clubsLogo/ieee.png" alt="IEEE UVCE">
+                    <h3>IEEE UVCE</h3>
+                    <p>Advancing technology for the benefit of humanity through innovative projects.</p>
+                    <a href="./assets/html/ieee.html" class="btn">Explore Club</a>
+                </div>
+                <div class="club-card">
+                    <img src="./assets/img/clubsLogo/adhamya.png" alt="Adhamya UVCE">
+                    <h3>Adhamya UVCE</h3>
+                    <p>Fostering creativity, leadership, and professional development.</p>
+                    <a href="./assets/html/adhamya.html" class="btn">Explore Club</a>
+                </div>
+                <div class="club-card">
+                    <img src="./assets/img/clubsLogo/ecell.png" alt="ECELL UVCE">
+                    <h3>ECELL UVCE</h3>
+                    <p>Nurturing entrepreneurial spirit and startup ecosystem.</p>
+                    <a href="./assets/html/ecell.html" class="btn">Explore Club</a>
+                </div>
             </div>
-            <div class="footerBottom">
-                <p>Copyright, Designed by<span class="designer">Team SPRint</span></p>
+        </section>
+
+        <section id="events" class="longCard container">
+            <h2>Upcoming Events</h2>
+            <p>Stay updated with our exciting range of workshops, hackathons, and seminars.</p>
+            <a href="./assets/html/calender.html" class="btn">View All Events</a>
+        </section>
+
+        <section id="leaderboard" class="longCard container">
+            <h2>Student Achievements Leaderboard</h2>
+            <p>Recognize and celebrate the outstanding contributions of our students.</p>
+            <a href="./assets/html/leaderboard.html" class="btn">View Leaderboard</a>
+        </section>
+
+        <section id="register" class="longCard container">
+            <h2>Register for Upcoming event</h2>
+            <p>Register for various upcoming event.</p>
+            <a href="./assets/html/register.html" class="btn">Register Here</a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#clubs">Clubs</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#leaderboard">Leaderboard</a></li>
+                </ul>
             </div>
+
+            <div class="footer-section">
+                <h4>Connect With Us</h4>
+                <div class="social-icons">
+                    <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-section contact-info" id="contact">
+                <h4>Contact Information</h4>
+                <p>UVCE, Bangalore</p>
+                <p>Email: contact@uvce.edu.in</p>
+                <p>Phone: +91 123 456 7890</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 UVCE Clubs. All Rights Reserved. 
+                <br>Designed with by Team SPRint | <b>License</b> |
+            </p>
+        </div>
     </footer>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
 </body>
-<script>
-    const hamburger = document.querySelector(".hamburger");
-    const nav = document.querySelector(".nav");
-
-    hamburger.onclick = function () {
-        hamburger.classList.toggle('close');
-        nav.classList.toggle('open');
-    }
-
-  setTimeout(()=>{
-    var popup = document.getElementById('popup');
-    popup.style.display = 'block';
-  },10000)
-
-    // Hide the popup after 3 seconds
-    setTimeout(function() {
-      popup.style.display = 'none';
-    }, 18000);
-  
-    setTimeout(()=>{
-            popup.style.display='block';
-            popup.innerHTML="CODEFURRY starting in an hour";
-    },26000)
-    setTimeout(()=>{
-        popup.style.display='none';
-        
-},32000)
-
-    setTimeout(()=>{
-        popup.style.display='block';
-        popup.innerHTML="Did you register for Hackathon?";
-},40000)
-setTimeout(()=>{
-    popup.style.display='none';
-
-},48000)
-</script>
-
 </html>
